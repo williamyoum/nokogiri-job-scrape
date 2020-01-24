@@ -5,7 +5,7 @@ require 'open-uri'
 require 'pry'
 
 
-def get_jobs
+def find_jobs
     date, role, url, company, array_of_jobs = '', '' ,'','', []
 
     base_url = 'http://www.garysguide.com'
@@ -45,4 +45,4 @@ def data_scraper(url)
 end
 
 
-puts get_jobs
+puts find_jobs
